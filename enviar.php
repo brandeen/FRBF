@@ -17,6 +17,6 @@ $carta .= "Mensaje: $mensaje";
 
 // Enviando Mensaje
 mail($destinatario, $asunto, $carta);
-header('Location:mensaje-de-envio.html');
+header('https://rawcdn.githack.com/brandeen/FRBF/39abe6d2c24059ae07ff45426884891dd902fa48/mensaje-de-envio.html');
 
 ?>
